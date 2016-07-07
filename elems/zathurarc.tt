@@ -1,0 +1,29 @@
+<% define_locals do
+  variable :"fonts.main.name", type: :string, as: :font_name
+  variable :"fonts.main.size", type: :int, as: :font_size
+
+end -%>
+" ─────────────────────────────────────────────────────────────────────────────┘
+
+" ─────────────────────────────────────────────────────────────────────────────┐
+" Appearance
+" Show commandline, statusbar, horizontal and vertical scrollview.
+set guioptions cshv
+set font "<%= local! :font_name %> <%= local! :font_size %>"
+set window-title-basename "true"
+" ─────────────────────────────────────────────────────────────────────────────┤
+" Search
+set incremental-search "true"
+set nohlsearch "false"
+set jumplist-size 2048
+" ─────────────────────────────────────────────────────────────────────────────┤
+" Integration
+set synctex "true"
+set dbus-service "true"
+" ─────────────────────────────────────────────────────────────────────────────┤
+" File navigation
+set show-directories "true"
+set show-recent "false"
+" ─────────────────────────────────────────────────────────────────────────────┘
+
+" vim: set filetype=eruby.vim :
