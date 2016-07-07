@@ -20,6 +20,7 @@ set jumplist-size 2048
 " Integration
 set synctex "true"
 set dbus-service "true"
+set selection-clipboard clipboard
 " ─────────────────────────────────────────────────────────────────────────────┤
 " File navigation
 set show-directories "true"
