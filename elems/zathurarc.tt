@@ -12,4 +12,7 @@ set search-hadjust false
 
 map ,n set nohlsearch
 
+set recolor-lightcolor "#888888"
+set recolor-darkcolor "#000000"
+
 " vim: set filetype=eruby.vim :
