@@ -10,4 +10,6 @@ set selection-clipboard clipboard
 set zoom-center true
 set search-hadjust false
 
+map ,n set nohlsearch
+
 " vim: set filetype=eruby.vim :
