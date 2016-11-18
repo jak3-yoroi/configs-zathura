@@ -14,5 +14,6 @@ map ,n set nohlsearch
 
 set recolor-lightcolor "#000000"
 set recolor-darkcolor "#888888"
+set recolor
 
 " vim: set filetype=eruby.vim :
