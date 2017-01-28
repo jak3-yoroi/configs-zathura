@@ -15,4 +15,11 @@ map ,n set nohlsearch
 set recolor-lightcolor "#000000"
 set recolor-darkcolor "#888888"
 
+map [fullscreen] a adjust_window best-fit
+map [fullscreen] s adjust_window width
+map [fullscreen] f follow
+map [fullscreen] <Tab> toggle_index
+map [fullscreen] j scroll down
+map [fullscreen] k scroll up
+
 " vim: set filetype=eruby.vim :
