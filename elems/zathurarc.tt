@@ -12,8 +12,9 @@ set search-hadjust false
 
 map ,n set nohlsearch
 
-set recolor-lightcolor "#000000"
-set recolor-darkcolor "#888888"
+# https://www.cs.cmu.edu/~jbigham/pubs/pdfs/2017/colors.pdf
+set recolor-lightcolor "#EDD1B0"
+set recolor-darkcolor "#111111"
 set recolor
 
 " vim: set filetype=eruby.vim :
