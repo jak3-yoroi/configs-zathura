@@ -17,4 +17,11 @@ set recolor-lightcolor "#EDD1B0"
 set recolor-darkcolor "#111111"
 set recolor
 
+map [fullscreen] a adjust_window best-fit
+map [fullscreen] s adjust_window width
+map [fullscreen] f follow
+map [fullscreen] <Tab> toggle_index
+map [fullscreen] j scroll down
+map [fullscreen] k scroll up
+
 " vim: set filetype=eruby.vim :
